@@ -1,11 +1,94 @@
-img{
-    width: 5rem;
-    height: 8rem;
+/*alle Tags*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*root*/
+:root {
+    --blue: #25CED1;
+    --white: #FFFFFF;
+    --orange: #FF8A5B;
+    --pink: #EA526F;
+    --braun: #2a1919;
+}
+
+
+
+h1 {
+    font-family: 'Obviously';
+    font-variant: 5rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+h2 {
+    font-family: 'Obviously';
+        font-size: 3rem;
+}
+
+h3{
+    font-family: 'Obviously';
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Clother';
+    font-size: 1.5rem;
+}
+
+button, .button {
+    background-color: var(--pink);
+    font-family: 'Clother';
+    font-size: 1.5rem;
+    border-radius: 0;
+    border: 0;
+    color: var(--white);
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+
+
+img, video {
+    height: 5rem;
+    width: 3rem;
+}
+
+
+/*header*/
+
+header {
+    background-color: var(--pink);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/***felxbox navigation***/
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+/***Bild/Logo***/
+header img {
+    width: 3rem;
+    height: 3rem;
     object-fit: cover;
 }
 
-video{
-    width: 5rem;
-    height: 8rem;
-    object-fit: cover;
+/***icons burgermenu***/
+.menu-icon {
+    color: var(--white);
+    font-size: 2.5rem;
+    display: none;
 }

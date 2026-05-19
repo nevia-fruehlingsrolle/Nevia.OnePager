@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nudeln</title>
+
+
+
+    <!--icons einbinden-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+
+
+    <!--Schrift einbinden-->
+    <link rel="stylesheet" href="https://use.typekit.net/ypl0apx.css">
+
+
+    <!--css einbinden-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+    <header>
+        <!--Logo-->
+        <a href="index.html"><img class="logo" src="assets/img/logo.svg" alt="logo_nudeln"></a>
+
+        <!--Navigation-->
+        <nav>
+            <ul>
+                <li><a href="#">Über Nudeln</a></li>
+                <li><a href="#">Galerie</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <!--Icons für Burgermenu-->
+        <a href="#" class="menu-icon">
+            <i class="iconoir-menu open"></i>
+            <i class="iconoir-xmark closed"></i>
+        </a>
+    </header>
+
+    <body>
+        <!--Hero-->
+        <section class="hero">
+            <video src="assets/img/hero.mp4"></video>
+            <div>
+            <h1>Nudeln</h1>
+            <p>Leben ist besser in al dente</p>
+            <button>Newsletter abonnieren</button>
+            </div>
+        </section>
+        
+        <!--Über Nudeln-->
+        <section class="ueber-nudeln">
+
+            <h2>Über Nudeln</h2>
+
+            <!--Al dente-->
+            <article class="titel-text">
+                <h3>Al dente</h3>
+                <p>Der Schlüssel zu richtig guten Nudeln liegt im Timing. „Al dente“ bedeutet, dass die Nudel noch einen leichten Biss hat. Am besten probierst du sie 1–2 Minuten vor der Packungszeit. Bei der Zubereitung musst du nur auf folgendes achten: Salz ins kochende Wasser geben. Öl im Wasser ist überflüssig, denn es verhindert, dass die Sauce später gut haftet.</p>
+            </article>
+
+            <!--Nudelformen-->
+            <article class="bild-text">
+                <div class="titel-text">
+                    <h3>Nudelformen</h3>
+                    <p>Nudeln gibt es in über 300 verschiedenen Formen. Lange Sorten wie Spaghetti eignen sich ideal für leichte, ölige Saucen, während kurze Formen wie Penne oder Fusilli perfekt sind, um cremige oder stückige Saucen aufzunehmen. Die Form entscheidet also nicht nur über das Aussehen, sondern auch über den Geschmack, weil sie bestimmt, wie viel Sauce haften bleibt.</p>
+                </div>
+
+                <img src="assets/img/nudelformen.jpg" alt="bild_nudelformen">
+            </article>
+
+            <!--Funfacts-->
+            <article class="bild-text">
+                <img src="assets/img/funfact.jpg" alt="bild_funfacts">
+
+                <div class="titel-text">
+                    <h3>Funfacts</h3>
+                    <p>Obwohl viele Nudeln sofort mit Italien verbinden, gibt es Hinweise, dass ähnliche Teigwaren schon vor über 4000 Jahren in China hergestellt wurden. Die moderne Pasta, wie wir sie heute kennen, wurde jedoch in Italien perfektioniert. Ein weiterer Funfact: Die längste je hergestellte Nudel war über 3 Kilometer lang.</p>
+                </div>
+
+            </article>
+
+        </section>
+
+
+
+        <!--Galerie-->
+        <section class="galerie">
+            <h2>Galerie</h2>
+            <div class="img">
+                <img src="assets/img/galerie_1.jpg" alt="galerie_1">
+                <img src="assets/img/galerie_2.jpg" alt="galerie_2">
+                <img src="assets/img/galerie_3.jpg" alt="galerie_3">
+                <img src="assets/img/galerie_4.jpg" alt="galerie_4">
+                <img src="assets/img/galerie_5.jpg" alt="galerie_5">
+                <img src="assets/img/galerie_6.jpg" alt="galerie_6">
+                <img src="assets/img/galerie_7.jpg" alt="galerie_7">
+            </div>
+        </section>
+
+        <!--Newsletter-->
+        <section class="newsletter">
+
+            <form action="#" method="post"> <!--formular eröffnen-->
+                <div id="input">
+                    <!--Vorname-->
+                    <label for="name">Vorname</label>
+                    <input name="name" id="name" type="text" placeholder="" />
+                    <br>
+
+                    <!--Nachname-->
+                    <label for="name">Nachname</label>
+                    <input name="name" id="surname" type="text" placeholder="" />
+                    <br>
+
+                    <!--E-Mail-->
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" />
+                    <br>
+                </div>
+
+                <div id="send">
+                    <!--Checkbox und Text dazu-->
+                    <div id="checkbox">
+                        <input type="checkbox">
+                        <label for="name">Ich willige in die Datenbearbeitung für diesen Newsletter ein.</label>
+                    </div>
+
+
+                    <!--Absenden Button-->
+                    <input type="submit" value="jetzt abonnieren" class="button">
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <!--Kontakt-->
+        <section class="kontakt"></section>
+
+    </body>
+
+    <footer>
+        <p>noodles</p>
+        <div>
+            <a href="#">Impressum</a>
+            <a href="#">Datenschutz</a>
+        </div>
+    </footer>
+    
+</body>
+</html>

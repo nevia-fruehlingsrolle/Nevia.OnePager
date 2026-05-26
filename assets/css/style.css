@@ -273,3 +273,45 @@ label {
 #checkbox input {
     transform: scale(2);
 }
+
+#kontakt {
+    text-align: center;
+}
+
+
+
+/*Footer*/
+footer {
+    background-color: var(--pink);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 3rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        color: var(--white);
+    }
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+        text-decoration: none;
+        color: var(--white);
+        font-family: 'Clother';
+        font-size: 1.5rem;
+    }
+}

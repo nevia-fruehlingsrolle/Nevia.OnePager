@@ -7,8 +7,8 @@
 
 /*root*/
 :root {
-    --blue: #25CED1;
-    --white: #FFFFFF;
+    --blau: #25CED1;
+    --weiss: #FFFFFF;
     --orange: #FF8A5B;
     --pink: #EA526F;
     --braun: #4a2626;
@@ -22,7 +22,7 @@ html {
 
 /*farben*/
 .blau {
-    color: var(--blue);
+    color: var(--blau);
 }
 
 .orange {
@@ -38,15 +38,16 @@ html {
 }
 
 .weiss {
-    color: var(--white);
+    color: var(--weiss);
 }
 
 
+/*text*/
 h1 {
     font-family: 'Obviously';
     font-size: 5.5rem;
     text-transform: uppercase;
-    color: var(--white);
+    color: var(--weiss);
 }
 
 h2 {
@@ -73,7 +74,7 @@ button, .button {
     font-size: 1.5rem;
     border-radius: 0;
     border: 0;
-    color: var(--white);
+    color: var(--weiss);
     padding-bottom: 0.75rem;
     padding-top: 0.75rem;
     padding-left: 1.5rem;
@@ -106,7 +107,7 @@ nav ul {
 
     a{
         text-decoration: none;
-        color: var(--white);
+        color: var(--weiss);
         font-family: 'Obviously';
     }
 }
@@ -120,7 +121,7 @@ header img {
 
 /***icons burgermenu***/
 .menu-icon {
-    color: var(--white);
+    color: var(--weiss);
     font-size: 2.5rem;
     display: none;
 }
@@ -135,7 +136,7 @@ header img {
     align-items: center;
     gap: 3rem;
 
-    background-color: var(--blue);
+    background-color: var(--blau);
     padding: 3rem;
 
     p {
@@ -308,7 +309,7 @@ label {
 /*Kontakt*/
 #kontakt {
     text-align: center;
-    background-color: var(--blue);
+    background-color: var(--blau);
     padding-bottom: 3rem;
 }
 
@@ -330,7 +331,7 @@ footer {
     align-items: center;
 
     p {
-        color: var(--white);
+        color: var(--weiss);
     }
 }
 
@@ -343,7 +344,7 @@ footer {
 
     a {
         text-decoration: none;
-        color: var(--white);
+        color: var(--weiss);
         font-family: 'Clother';
         font-size: 1.5rem;
     }
@@ -359,7 +360,6 @@ footer {
 
 
 
-/*****RESPONSIVE******/
 /*****RESPONSIVE******/
 /*****RESPONSIVE******/
 /*****RESPONSIVE******/
@@ -418,7 +418,7 @@ footer {
 
     nav ul li a {
         font-size: 3rem;
-        color: var(--white);
+        color: var(--weiss);
         font-family: "Obviously";
     }
 

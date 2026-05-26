@@ -9,9 +9,19 @@
 :root {
     --blau: #25CED1;
     --weiss: #FFFFFF;
+    --weiss-switch: #ffffff; 
     --orange: #FF8A5B;
     --pink: #EA526F;
     --braun: #4a2626;
+    --braun-switch: #4a2626;
+}
+
+/*dark mode*/
+@media (prefers-color-scheme: dark) {
+  :root {
+    --weiss-switch: #1F2020;
+    --braun-switch: #ffffff;
+  }
 }
 
 
@@ -145,6 +155,15 @@ header img {
     }
 }
 
+/*über nudeln*/
+#ueber-nudeln {
+    background-color: var(--weiss-switch);
+
+    p {
+        color: var(--braun-switch);
+    }
+}
+
 #hero-text {
     display: flex;
     flex-direction: column;
@@ -167,7 +186,7 @@ header img {
     flex-direction: column;
     justify-content: left;
     gap: 1rem;
-    margin: 3rem;
+    padding: 3rem;
 }
 
 /*bild-text*/
@@ -177,10 +196,11 @@ header img {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin: 3rem;
+    padding: 3rem;
 
     .titel-text {
         margin: 0;
+        padding: 0;
     }
 
     img{
@@ -255,10 +275,21 @@ header img {
 }
 
 
+
+/*Newsletter*/
+#newsletter {
+    background-color: var(--weiss-switch);
+
+    p {
+        color: var(--braun-switch);
+    }
+}
+
+
 /*Kontaktformular*/
 /*ganzes formular*/
 form {
-    margin: 3rem;
+    padding: 3rem;
 }
 
 
@@ -266,7 +297,7 @@ form {
 label {
     font-family: 'Clother';
     font-size: 1.5rem;
-    color: var(--braun);
+    color: var(--braun-switch);
 }
 
 
@@ -275,7 +306,7 @@ label {
     font-size: 1.5rem;
     font-family: 'Clother';
     padding: 0.5rem;
-    border: solid 2px var(--braun);
+    border: solid 2px var(--braun-switch);
     border-radius: 0;
     width: 100%;
 }
@@ -550,5 +581,15 @@ footer {
         }
     }
 
+
+    /*footer*/
+    .right {
+        flex-direction: column;
+        gap: 0.25rem;
+
+        a {
+            font-size: 1rem;
+        }
+    }
 
 }
